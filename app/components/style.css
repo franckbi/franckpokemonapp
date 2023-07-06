@@ -1,0 +1,115 @@
+.box {
+  position: absolute;
+  right: 0;
+  width: 200px;
+  height: 100px;
+  border: 1px solid black;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.styledd {
+  font-weight: bold;
+  color: #0070f3;
+  text-decoration: none;
+  border-bottom: 2px solid #0070f3;
+  transition: color 0.3s ease, border-color 0.3s ease;
+  :hover,
+  :focus,
+  :active {
+    color: #0366d6;
+    border-color: #0366d6;
+  }
+}
+
+/*
+Style header
+*/
+
+header {
+  background-color: #0d0d0d;
+}
+
+.container {
+  width: 10%;
+  height: 30px;
+  background-color: #0d0d0d;
+  margin: auto;
+  float: left;
+  box-sizing: border-box;
+  border-radius: 10px 10px;
+  padding-top: 30px;
+}
+
+#charmander:hover {
+  background-image: url('https://giantbomb1.cbsistatic.com/uploads/scale_small/13/135472/1891762-005charmeleon.png');
+  background-repeat: no-repeat;
+  width: 10px;
+  height: 10px;
+}
+
+#charmander {
+  background-image: url('https://giantbomb1.cbsistatic.com/uploads/scale_small/13/135472/1891761-004charmander.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 10px;
+  height: 10px;
+  margin: auto;
+}
+
+#squirtle {
+  background-image: url('https://giantbomb1.cbsistatic.com/uploads/scale_small/13/135472/1891764-007squirtle.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 10px;
+  height: 10px;
+  margin: auto;
+}
+
+#squirtle:hover {
+  background-image: url('https://giantbomb1.cbsistatic.com/uploads/scale_small/13/135472/1891809-008wartortle.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 10px;
+  height: 10px;
+  margin: auto;
+}
+
+#bulbasaur {
+  background-image: url('https://giantbomb1.cbsistatic.com/uploads/scale_small/13/135472/1891758-001bulbasaur.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 10px;
+  height: 10px;
+  margin: auto;
+}
+
+#bulbasaur:hover {
+  background-image: url('https://giantbomb1.cbsistatic.com/uploads/scale_small/13/135472/1891759-002ivysaur.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 10px;
+  height: 10px;
+  margin: auto;
+}
+
+div img {
+  width: 10px;
+  height: 10px;
+  display: block;
+  margin: auto;
+}
+
+div .banner {
+  width: 10px;
+  height: 10px;
+}
+
+div .banner:hover {
+  width: 10px;
+  height: 9px;
+  transform: scale(1.1);
+}
