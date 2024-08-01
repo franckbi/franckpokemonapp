@@ -9,6 +9,7 @@ import {
 } from '@deere/fuel-react';
 import { ThemeProvider } from '@deere/fuel-react';
 import Link from 'next/link';
+import CatchingPokemonIcon from '@mui/icons-material/CatchingPokemon';
 
 export default function NavBar() {
   return (
@@ -18,18 +19,13 @@ export default function NavBar() {
           <Grid container spacing={2}>
             <Grid item xs={4}>
               <Box p='0.5rem' sx={{ gridColumn: '1' }}>
-                <img
-                  height={30}
-                  width={30}
-                  src='https://cdn.emojidex.com/emoji/seal/pokeball.png'
-                  alt='pokeball'
-                />
                 <Button
                   style={{ backgroundColor: '#552F2A' }}
                   href='./pokemonList'
                 >
+                  <CatchingPokemonIcon />
                   <Typography
-                    size='lg'
+                    sx={{ size: 'lg' }}
                     fontWeight='bold'
                     color='error'
                     component='p'
@@ -37,26 +33,16 @@ export default function NavBar() {
                   >
                     Pokémons
                   </Typography>
+                  <CatchingPokemonIcon />
                 </Button>
-                <img
-                  height={30}
-                  width={30}
-                  src='https://cdn.emojidex.com/emoji/seal/pokeball.png'
-                  alt='pokeball'
-                />
               </Box>
             </Grid>
             <Grid item xs={4}>
               <Box p='0.5rem' sx={{ gridColumn: '1' }}>
-                <img
-                  height={30}
-                  width={30}
-                  src='https://cdn.emojidex.com/emoji/seal/bensive.png'
-                  alt='homepage'
-                />
                 <Button style={{ backgroundColor: '#552F2A' }} href='/'>
+                  <CatchingPokemonIcon />
                   <Typography
-                    size='lg'
+                    sx={{ size: 'lg' }}
                     fontWeight='bold'
                     color='error'
                     component='p'
@@ -64,26 +50,16 @@ export default function NavBar() {
                   >
                     Home
                   </Typography>
+                  <CatchingPokemonIcon />
                 </Button>
-                <img
-                  height={30}
-                  width={30}
-                  src='https://cdn.emojidex.com/emoji/seal/bensive.png'
-                  alt='homepage'
-                />
               </Box>
             </Grid>
             <Grid item xs={4}>
               <Box p='0.5rem' sx={{ gridColumn: '1' }}>
-                <img
-                  height={40}
-                  width={40}
-                  src='https://cdn.emojidex.com/emoji/seal/black_person.png'
-                  alt='Me'
-                />
                 <Button style={{ backgroundColor: '#552F2A' }} href='/about'>
+                  <CatchingPokemonIcon />
                   <Typography
-                    size='lg'
+                    sx={{ size: 'lg' }}
                     fontWeight='bold'
                     color='error'
                     component='p'
@@ -91,13 +67,8 @@ export default function NavBar() {
                   >
                     About
                   </Typography>
+                  <CatchingPokemonIcon />
                 </Button>
-                <img
-                  height={40}
-                  width={40}
-                  src='https://cdn.emojidex.com/emoji/seal/black_person.png'
-                  alt='Me'
-                />
               </Box>
             </Grid>
           </Grid>

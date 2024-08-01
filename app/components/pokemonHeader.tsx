@@ -1,24 +1,15 @@
 'use client';
 import '../page.module.css';
-
+import CatchingPokemonIcon from '@mui/icons-material/CatchingPokemon';
+// import Image from '@/images/image.png';
 const Header = () => {
   return (
     <div style={{ width: '800px', height: '450px', transform: 'scale(1.3)' }}>
       <header>
         <h1 className='title' style={{ marginLeft: '120px', color: '#BF4640' }}>
-          <img
-            height={50}
-            width={50}
-            src='https://cdn.emojidex.com/emoji/seal/pikachu.png'
-            alt='pokemon image'
-          />
+          <CatchingPokemonIcon />
           Welcome To My Pokedex Website
-          <img
-            height={50}
-            width={50}
-            src='https://cdn.emojidex.com/emoji/seal/pikachu.png'
-            alt='pokemon image'
-          />
+          <CatchingPokemonIcon />
         </h1>
       </header>
       <img
@@ -28,7 +19,7 @@ const Header = () => {
           display: 'block',
           margin: 'auto',
         }}
-        src='https://i.imgur.com/aDz70Ty.png'
+        src='https://wallpapercave.com/wp/wp4356176.png'
         alt='the image'
       />
     </div>

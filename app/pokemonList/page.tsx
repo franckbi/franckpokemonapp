@@ -11,7 +11,7 @@ import {
 import { useEffect, useState } from 'react';
 import { GET } from '../api/pokemonData/route';
 import { ThemeProvider } from '@deere/fuel-react';
-import styles from '../page.module.css';
+
 export default function pokemonPage() {
   const [value, setValue] = useState<pokemonType[]>([]);
   const [favorites, setFavorites] = useState([]);
